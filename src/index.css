@@ -1,0 +1,214 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #444648 #3b3b3b;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  /* background: rgb(59 59 59 / 0.3) !important; */
+  background: transparent !important;
+  border-radius: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #444648;
+  border-radius: 8px;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.ant-input {
+  background-color: #242424;
+  border-color: #242424;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.ant-input::placeholder {
+  color: rgba(255, 255, 255, 0.38);
+}
+
+.ant-breadcrumb a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.ant-breadcrumb a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.ant-breadcrumb-separator {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.dropdown__icon {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.ant-table-wrapper table {
+  z-index: -1;
+  background-color: #3b3b3b;
+}
+
+.ant-table-cell-row-hover {
+  background-color: #535353 !important;
+}
+
+.ant-table-cell {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.ant-table-thead > tr > th {
+  background-color: #3b3b3b !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.ant-input-disabled {
+  background-color: #242424 !important;
+  border-color: #242424 !important;
+  color: rgba(168, 168, 168, 0.87) !important;
+}
+
+label {
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.ant-modal-content {
+  background-color: #3b3b3b !important;
+}
+
+.ant-modal-content .ant-modal-title {
+  background-color: #3b3b3b !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.ant-modal-close-x {
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.ant-table-content {
+  background-color: #3b3b3b !important;
+}
+
+.ant-modal-footer {
+  border-top: 1px solid #535353 !important;
+  padding-top: 12px !important;
+
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.ant-modal-content .ant-table-tbody .ant-table-cell {
+  color: rgba(255, 255, 255, 0.87) !important;
+  border-bottom: none !important;
+}
+
+.ant-modal-content .ant-table-tbody .ant-table-cell .ant-form-item {
+  margin-bottom: 0 !important;
+}
+
+.ant-select-selector {
+  background-color: #242424 !important;
+  border-color: #242424 !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+/* .ant-select-selection-search {
+  color: rgba(255, 255, 255, 0.87) !important;
+} */
+
+/* plechoder */
+.ant-select-selection-placeholder {
+  color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.ant-select-selector .ant-select-selection-item {
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.ant-select-arrow {
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.ant-tabs-tab-btn {
+  color: rgb(165, 165, 165) !important;
+}
+
+.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.ant-tabs-ink-bar {
+  background-color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.ant-tabs-tab .ant-tabs-tab-btn:hover {
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.ant-tabs-tab:hover {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.87) !important;
+}
+
+.ant-tabs-tab-active {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.87) !important;
+}
+
+.ant-tabs-nav-wrap {
+  border-bottom: 1px solid #535353 !important;
+}
+
+.gradient {
+  background: linear-gradient(90deg, #ffc700 0%, #ffc700 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+input #basic_username {
+  background-color: #242424 !important;
+  border-color: #242424 !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+input #basic_username::placeholder {
+  color: rgba(255, 255, 255, 0.38) !important;
+}
+
+input #basic_password {
+  background-color: #242424 !important;
+  border-color: #242424 !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+input #basic_password::placeholder {
+  color: rgba(255, 255, 255, 0.38) !important;
+}
+
+input #basic_remember {
+  background-color: #242424 !important;
+  border-color: #242424 !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
